@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantTelemetryApp.Web", "source\PlantTelemetryApp.Web\PlantTelemetryApp.Web.csproj", "{8C3BB090-CDA0-4460-819C-69B3B6CF5F6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantTelemetryApp.Web.Contracts", "source\PlantTelemetryApp.Web.Contracts\PlantTelemetryApp.Web.Contracts.csproj", "{835DB61F-A723-4049-AED4-18F220105D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantTelemetryApp.Services", "source\PlantTelemetryApp.Services\PlantTelemetryApp.Services.csproj", "{988370B8-4606-4968-83D9-6FE1BDE8F3B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantTelemetryApp.Services.Models", "source\PlantTelemetryApp.Services.Models\PlantTelemetryApp.Services.Models.csproj", "{AC9ED2B0-BB2B-419C-A120-24A1C6FB478C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantTelemetryApp.DataAccess.Interfaces", "source\PlantTelemetryApp.DataAccess.Interfaces\PlantTelemetryApp.DataAccess.Interfaces.csproj", "{14187700-3D01-474F-9C13-4CC03D682768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantTelemetryApp.DataAccess", "source\PlantTelemetryApp.DataAccess\PlantTelemetryApp.DataAccess.csproj", "{7D3417C5-568F-4DC2-B7AE-443C568E4329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantTelemetryApp.Services.Interfaces", "source\PlantTelemetryApp.Services.Interfaces\PlantTelemetryApp.Services.Interfaces.csproj", "{EEA9A1FB-E1E3-4C1B-B693-D08A19C2B326}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{27B2341B-5388-47C7-BD78-D54FAF343710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantTelemetryApp.Services.Tests", "tests\PlantTelemetryApp.Services.Tests\PlantTelemetryApp.Services.Tests.csproj", "{C32F7ED7-D2F0-46C1-B1FD-6867CC4EFAB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantTelemetryApp.DataAccess.Tests", "tests\PlantTelemetryApp.DataAccess.Tests\PlantTelemetryApp.DataAccess.Tests.csproj", "{78868719-6D9D-43D2-8F06-FE767012E11D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantTelemetryApp.Web.Tests", "tests\PlantTelemetryApp.Web.Tests\PlantTelemetryApp.Web.Tests.csproj", "{3FBEE1B4-9130-4FE7-9AF2-668AA5FF1DD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C3BB090-CDA0-4460-819C-69B3B6CF5F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3BB090-CDA0-4460-819C-69B3B6CF5F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3BB090-CDA0-4460-819C-69B3B6CF5F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3BB090-CDA0-4460-819C-69B3B6CF5F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835DB61F-A723-4049-AED4-18F220105D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835DB61F-A723-4049-AED4-18F220105D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835DB61F-A723-4049-AED4-18F220105D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835DB61F-A723-4049-AED4-18F220105D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{988370B8-4606-4968-83D9-6FE1BDE8F3B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988370B8-4606-4968-83D9-6FE1BDE8F3B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988370B8-4606-4968-83D9-6FE1BDE8F3B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988370B8-4606-4968-83D9-6FE1BDE8F3B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC9ED2B0-BB2B-419C-A120-24A1C6FB478C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9ED2B0-BB2B-419C-A120-24A1C6FB478C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9ED2B0-BB2B-419C-A120-24A1C6FB478C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9ED2B0-BB2B-419C-A120-24A1C6FB478C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14187700-3D01-474F-9C13-4CC03D682768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14187700-3D01-474F-9C13-4CC03D682768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14187700-3D01-474F-9C13-4CC03D682768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14187700-3D01-474F-9C13-4CC03D682768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D3417C5-568F-4DC2-B7AE-443C568E4329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D3417C5-568F-4DC2-B7AE-443C568E4329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D3417C5-568F-4DC2-B7AE-443C568E4329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D3417C5-568F-4DC2-B7AE-443C568E4329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEA9A1FB-E1E3-4C1B-B693-D08A19C2B326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA9A1FB-E1E3-4C1B-B693-D08A19C2B326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA9A1FB-E1E3-4C1B-B693-D08A19C2B326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA9A1FB-E1E3-4C1B-B693-D08A19C2B326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32F7ED7-D2F0-46C1-B1FD-6867CC4EFAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32F7ED7-D2F0-46C1-B1FD-6867CC4EFAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32F7ED7-D2F0-46C1-B1FD-6867CC4EFAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32F7ED7-D2F0-46C1-B1FD-6867CC4EFAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78868719-6D9D-43D2-8F06-FE767012E11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78868719-6D9D-43D2-8F06-FE767012E11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78868719-6D9D-43D2-8F06-FE767012E11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78868719-6D9D-43D2-8F06-FE767012E11D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FBEE1B4-9130-4FE7-9AF2-668AA5FF1DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FBEE1B4-9130-4FE7-9AF2-668AA5FF1DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FBEE1B4-9130-4FE7-9AF2-668AA5FF1DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FBEE1B4-9130-4FE7-9AF2-668AA5FF1DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C32F7ED7-D2F0-46C1-B1FD-6867CC4EFAB8} = {27B2341B-5388-47C7-BD78-D54FAF343710}
+		{78868719-6D9D-43D2-8F06-FE767012E11D} = {27B2341B-5388-47C7-BD78-D54FAF343710}
+		{3FBEE1B4-9130-4FE7-9AF2-668AA5FF1DD5} = {27B2341B-5388-47C7-BD78-D54FAF343710}
+	EndGlobalSection
+EndGlobal

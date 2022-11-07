@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PlantTelemetryApp.Services.Models\PlantTelemetryApp.Services.Models.csproj" />
+      <ProjectReference Include="..\PlantTelemetryApp.Web.Contracts\PlantTelemetryApp.Web.Contracts.csproj" />
+    </ItemGroup>
+
+</Project>

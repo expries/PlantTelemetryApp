@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
+      <PackageReference Include="NLog.Web.AspNetCore" Version="5.1.5" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.4.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PlantTelemetryApp.DataAccess\PlantTelemetryApp.DataAccess.csproj" />
+      <ProjectReference Include="..\PlantTelemetryApp.Services\PlantTelemetryApp.Services.csproj" />
+      <ProjectReference Include="..\PlantTelemetryApp.Web.Contracts\PlantTelemetryApp.Web.Contracts.csproj" />
+    </ItemGroup>
+
+</Project>
