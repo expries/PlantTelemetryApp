@@ -5,9 +5,9 @@ services:
         context: .
         dockerfile: ./source/PlantTelemetryApp.Web/Dockerfile
     ports:
-      - 8000:80
+      - 8080:80
     environment:
-      - ConnectionString__Database=Server=db;Database=master;User=sa;Password=P@ssword;
+      - ConnectionStrings__Database=Server=db;Database=master;User=sa;Password=P@ssword;
     depends_on:
       - db
   db:
